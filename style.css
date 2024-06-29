@@ -1,0 +1,59 @@
+:root {
+    --White01: hsl(0, 0%, 100%);
+    --Grey02: hsl(0, 0%, 50%);
+    --Black03: hsl(0, 0%, 7%);
+}
+
+
+* {
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: rgba(216, 216, 48, 0.932);
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 336px;
+    margin-bottom: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 528px;
+    width: 384px;
+    background-color: var(--White01);
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    border-radius: 5%;
+}
+
+.container-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 336px;
+}
+
+.escritor {
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+}
+
+.avatar {
+    margin-right: 12px;
+}
